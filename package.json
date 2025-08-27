@@ -1,0 +1,40 @@
+{
+  "name": "ariaperta-dashboard",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js",
+    "server:dev": "nodemon server/server.js",
+    "test:server": "node server/test-server.js",
+    "start": "npm run build && npm run server"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.0.1",
+    "framer-motion": "^11.0.0",
+    "helmet": "^8.1.0",
+    "ical-generator": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mkcert": "^3.2.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "nodemon": "^3.1.10",
+    "vite": "^5.0.0"
+  }
+}
