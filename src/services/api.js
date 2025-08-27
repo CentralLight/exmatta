@@ -1,5 +1,5 @@
 // API Service per la comunicazione con il backend
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'http://www.exmatta.it/api';
 
 // Utility per le chiamate HTTP
 const apiCall = async (endpoint, options = {}) => {
